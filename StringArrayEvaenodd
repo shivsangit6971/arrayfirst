@@ -1,0 +1,26 @@
+//progarmm for  string length is even or odd using array
+import java.util.*;
+
+public class StringArray{
+
+   public static void main(String[]args){
+
+     Scanner sc=new Scanner(System.in);
+
+     String s[]=new String[5];
+     int count=0;
+
+     for(int i=0;i<s.length;i++){
+         s[i]=sc.nextLine();
+
+         if(s[i].length()%2==0){
+
+            System.out.println(s[i]);
+            count++;
+         }
+     }
+
+     System.out.println(count);
+
+   }
+}
