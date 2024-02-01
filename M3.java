@@ -1,4 +1,6 @@
 package abc;
+//Program for array which holds information of student in object format which consist of name variable concatenated with date of birth year. 
+//we have check the whether given year is leap year or not and print leap year in int format.
 
 public class M3 {
 	String name;
